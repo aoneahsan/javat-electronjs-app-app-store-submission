@@ -1,0 +1,90 @@
+{
+  "name": "javat365",
+  "version": "0.1.0",
+  "main": "main.js",
+  "description": "JAVAT 365",
+  "productName": "JAVAT 365",
+  "publisher": "www.javat365.com",
+  "author": "JAVAT 365 <info@javat365.com>",
+  "private": true,
+  "homepage": ".",
+  "build": {
+    "productName": "JAVAT 365",
+    "appId": "com.javat365.desktop",
+    "linux": {
+      "category": "Utility",
+      "icon": "icon.png",
+      "target": [
+        "deb",
+        "appImage"
+      ]
+    },
+    "deb": {
+      "depends": [
+        "gconf2",
+        "gconf-service",
+        "libnotify4",
+        "libappindicator1",
+        "libxtst6",
+        "libnss3"
+      ]
+    },
+    "win": {
+      "icon": "icon.png",
+      "certificateFile": "public/certificate.pfx",
+      "certificatePassword": "JAVAT!23"
+    },
+    "mac": {
+      "icon": "icon.icns",
+      "category": "public.app-category.utilities",
+      "hardenedRuntime": true,
+      "entitlements": "build/entitlements.mac.plist",
+      "entitlementsInherit": "build/entitlements.mac.plist",
+      "gatekeeperAssess": false,
+      "target": {
+        "target": "default",
+        "arch": "universal"
+      }
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "license": "license.md",
+      "runAfterFinish": true
+    },
+    "files": [
+      "node_modules/**/*",
+      "public/**/*",
+      "index.html",
+      "main.js",
+      "preload.js",
+      "package.json",
+      "icon.icns",
+      "icon.ico",
+      "icon.png"
+    ],
+    "extraMetadata": {
+      "main": "main.js"
+    },
+    "directories": {
+      "buildResources": "build"
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "electron:win": "electron-builder -w -c.extraMetadata.main=main.js",
+    "electron:mac": "electron-builder -m -c.extraMetadata.main=main.js",
+    "electron:linux": "electron-builder -l -c.extraMetadata.main=main.js"
+  },
+  "devDependencies": {
+    "electron": "^23.1.0",
+    "electron-builder": "^23.3.3"
+  },
+  "dependencies": {
+    "@jitsi/electron-sdk": "^5.0.1",
+    "electron-context-menu": "^3.6.1",
+    "electron-is-dev": "^2.0.0",
+    "electron-window-state": "^5.0.3",
+    "remote": "^0.2.6"
+  }
+}
