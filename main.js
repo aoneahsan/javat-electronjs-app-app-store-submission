@@ -1,11 +1,13 @@
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, shell } = require('electron');
 
 const windowStateKeeper = require('electron-window-state');
 
 const { getPopupTarget, setupAlwaysOnTopMain } = require('@jitsi/electron-sdk');
 const contextMenu = require('electron-context-menu');
-const { shell } = require('electron');
 const url = require('url');
+
+app.name = 'Trizlink';
+app.setName('Trizlink');
 
 /**
  * Opens the given link in an external browser.
@@ -99,7 +101,11 @@ function createWindow() {
 			devTools: false,
 			spellcheck: true,
 		},
+		title: 'Trizlink',
+		icon: '/icon.png',
 	});
+
+	mainWindow.title = 'Trizlink';
 
 	mainWindow.loadURL(`https://trizlink.com`, {
 		userAgent:
