@@ -1,6 +1,4 @@
-﻿
-
-Terms and Conditions
+﻿Terms and Conditions
 
 Last updated: July 30, 2021
 
@@ -22,7 +20,7 @@ For the purposes of these Terms and Conditions:
 
 **Application** means the software program provided by the Company in both web
 
-and mobile downloaded by You on any electronic device, named JAVAT 365
+and mobile downloaded by You on any electronic device, named Trizlink
 
 **Application Store** means the digital distribution service operated and developed by
 
@@ -73,10 +71,6 @@ Service.
 **Subscriptions** refer to the services or access to the Service offered on a
 
 subscription basis by the Company to You.
-
-
-
-
 
 **Terms and Conditions** (also referred as "Terms") mean these Terms and
 
@@ -141,10 +135,6 @@ will be billed in advance on a recurring and periodic basis (such as daily, week
 annually), depending on the type of Subscription plan you select when purchasing the
 
 Subscription.
-
-
-
-
 
 At the end of each period, Your Subscription will automatically renew under the exact same
 
@@ -212,10 +202,6 @@ Privacy policy. If the rules for a Promotion conflict with these Terms, the Prom
 
 will apply.
 
-
-
-
-
 User Accounts
 
 When You create an account with Us, You must provide Us information that is accurate,
@@ -277,10 +263,6 @@ The Company is not responsible for the content of the Service's users. You expre
 understand and agree that You are solely responsible for the Content and for all activity that
 
 occurs under your account, whether done so by You or any third person using Your account.
-
-
-
-
 
 You may not transmit any Content that is unlawful, offensive, upsetting, intended to disgust,
 
@@ -374,10 +356,6 @@ The Company will provide support and attempt to troubleshoot any known or discov
 
 issues that may affect the backups of Content. But You acknowledge that the Company has
 
-
-
-
-
 no liability related to the integrity of Content or the failure to successfully restore Content
 
 to a usable state.
@@ -402,7 +380,7 @@ copyrighted work has been copied in a way that constitutes copyright infringemen
 
 taking place through the Service, You must submit Your notice in writing to the attention of
 
-our copyright agent via email at support@java365.com and include in Your notice a detailed
+our copyright agent via email at support@trizlink.com and include in Your notice a detailed
 
 description of the alleged infringement.
 
@@ -456,11 +434,7 @@ notice is accurate and that You are the copyright owner or authorized to act on 
 
 copyright owner's behalf.
 
-
-
-
-
-You can contact our copyright agent via email at support@java365.com. Upon receipt of a
+You can contact our copyright agent via email at support@trizlink.com. Upon receipt of a
 
 notification, the Company will take whatever action, in its sole discretion, it deems
 
@@ -515,10 +489,6 @@ We strongly advise You to read the terms and conditions and privacy policies of 
 party web sites or services that You visit.
 
 Termination
-
-
-
-
 
 We may terminate or suspend Your Account immediately, without prior notice or liability,
 
@@ -590,10 +560,6 @@ applications, systems or services, operate without interruption, meet any perfor
 
 reliability standards or be error free or that any errors or defects can or will be corrected.
 
-
-
-
-
 Without limiting the foregoing, neither the Company nor any of the company's provider
 
 makes any representation or warranty of any kind, express or implied: (i) as to the
@@ -647,10 +613,6 @@ If You are a U.S. federal government end user, our Service is a "Commercial Item
 term is defined at 48 C.F.R. §2.101.
 
 United States Legal Compliance
-
-
-
-
 
 You represent and warrant that (i) You are not located in a country that is subject to the
 
@@ -710,12 +672,6 @@ Contact Us
 
 If you have any questions about these Terms and Conditions, You can contact us:
 
-
-
-
-
 •
 
-By email: support@javat365.com
-
-
+By email: support@trizlink.com
